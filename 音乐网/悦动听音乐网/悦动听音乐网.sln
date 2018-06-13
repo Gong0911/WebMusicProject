@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YueMusic.Models", "YueMusic.Model\YueMusic.Models.csproj", "{5A42596A-90F7-4771-99F8-F744ABDF4DD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YueMusic.DAL", "YueMusic.DAL\YueMusic.DAL.csproj", "{6DF29AE6-5A14-4CC4-8426-652244C805B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YueMusic.BLL", "YueMusic.BLL\YueMusic.BLL.csproj", "{770D1748-92AA-4CEB-8E20-5F1961D3890F}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "YueMusic.Web", "YueMusic.Web\", "{DF48FFA7-5926-4B10-AA5C-ABCD37AF2B20}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{770d1748-92aa-4ceb-8e20-5f1961d3890f}|YueMusic.BLL.dll;{5a42596a-90f7-4771-99f8-f744abdf4dd6}|YueMusic.Model.dll;{6DF29AE6-5A14-4CC4-8426-652244C805B5}|YueMusic.DAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_8110"
+		Debug.AspNetCompiler.PhysicalPath = "YueMusic.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_8110\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_8110"
+		Release.AspNetCompiler.PhysicalPath = "YueMusic.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_8110\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "8110"
+		SlnRelativePath = "YueMusic.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A42596A-90F7-4771-99F8-F744ABDF4DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A42596A-90F7-4771-99F8-F744ABDF4DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A42596A-90F7-4771-99F8-F744ABDF4DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A42596A-90F7-4771-99F8-F744ABDF4DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF29AE6-5A14-4CC4-8426-652244C805B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF29AE6-5A14-4CC4-8426-652244C805B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF29AE6-5A14-4CC4-8426-652244C805B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF29AE6-5A14-4CC4-8426-652244C805B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{770D1748-92AA-4CEB-8E20-5F1961D3890F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{770D1748-92AA-4CEB-8E20-5F1961D3890F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{770D1748-92AA-4CEB-8E20-5F1961D3890F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{770D1748-92AA-4CEB-8E20-5F1961D3890F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF48FFA7-5926-4B10-AA5C-ABCD37AF2B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF48FFA7-5926-4B10-AA5C-ABCD37AF2B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF48FFA7-5926-4B10-AA5C-ABCD37AF2B20}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF48FFA7-5926-4B10-AA5C-ABCD37AF2B20}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

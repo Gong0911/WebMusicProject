@@ -1,0 +1,183 @@
+﻿/* 样式重置 （reset)*/
+*{
+    padding:0;
+    margin: 0;
+}
+body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin: 0 ; padding: 0;}
+body{background:url(../image/bgimg.jpg);background-size:100%;}
+em{font-style:normal;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border:none;vertical-align: top;}
+table{border-collapse: collapse;}
+input,textarea{outline: none;}
+textarea{resize: none; overflow:auto;}
+
+
+
+
+
+/*登录样式*/
+#reg_box{
+    position: relative;
+    width: 350px;
+    height:470px;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-right:240px;
+    border:1px solid #cccccc;
+    border-radius: 6px;
+    background-color: rgba(0,0,0,0.1);
+}
+#reg_box .user_name{
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    width: 280px;
+    height: 55px;
+    border-radius: 4px;
+    background-color: #ffffff;
+
+}
+#reg_box .user_password{
+    position: absolute;
+    top: 100px;
+    left:35px;
+    width: 280px;
+    height: 55px;
+    border-radius: 4px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+#reg_box .confirm_pwd{
+    position: absolute;
+    top: 160px;
+    left:35px;
+    width: 280px;
+    height: 55px;
+    border-radius: 4px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+#reg_box .user_email{
+    position: absolute;
+    top: 220px;
+    left:35px;
+    width: 280px;
+    height: 55px;
+    border-radius: 4px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+#reg_box .user_phone{
+    position: absolute;
+    top: 280px;
+    left:35px;
+    width: 280px;
+    height: 55px;
+    border-radius: 4px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+/*注册按钮*/
+#reg_box .submit_reg{
+    position: absolute;
+    top:345px;
+    left: 35px;
+    width: 280px;
+    height: 50px;
+    border:none;
+    color:#ffffff;
+    font-size:18px;
+    cursor:pointer;
+    border-radius: 4px;
+    background-color:#C20C0C ;
+}
+#reg_box .submit_reg:hover{
+    background-color:red;
+}
+
+/*下部链接的样式*/
+#reg_box .link_page{
+    position: absolute;
+    top:410px;
+    left: 35px;
+    width: 280px;
+    height: 30px;
+}
+#reg_box .link_page p{
+    float: left;
+}
+#reg_box .link_page .go_homepage a{
+    display: inline-block;
+    color: #C20C0C;
+    font-size:14px;
+}
+#reg_box .link_page .go_homepage a:hover{
+    text-decoration: underline;
+}
+#reg_box .link_page .go_reg {
+   float: right;
+    color: #000000;
+}
+#reg_box .link_page .go_reg a{
+    color: #C20C0C;
+}
+#reg_box .link_page .go_reg a:hover{
+    text-decoration: underline;
+}
+
+/*登录框中的div样式*/
+#reg_box .user_ico,.password_ico,.email_ico,.phone_ico{
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+/*图标样式*/
+#reg_box .user_name .user_ico{
+    background: url("../image/username_ico.png") no-repeat;
+}
+#reg_box .user_password .password_ico{
+    background: url("../image/passwod_ico.png") no-repeat;
+}
+#reg_box .confirm_pwd .password_ico{
+    background: url("../image/passwod_ico.png") no-repeat;
+}
+#reg_box .user_email .email_ico{
+    background: url("../image/email_ico.png") no-repeat;
+}
+#reg_box .user_phone .phone_ico{
+    background: url("../image/phone_ico.png") no-repeat;
+}
+/*textbox input 的样式*/
+#reg_box .user_name input,.user_password input,.confirm_pwd input,.user_email input,.user_phone input{
+    border-style: none;
+    border-width: medium;
+    position:absolute;
+    top:7px;
+    left:55px;
+    width:99px;
+    height:40px;
+    line-height:40px;
+    right: 126px;
+}
+
+    
+
+
+#reg_box .yan{
+    position:absolute;
+    top:8px;
+    left:163px;
+    height:40px;
+    line-height:40px;
+    border-left:1px solid #cccccc;
+    font-size:12px;
+}
+
+
+

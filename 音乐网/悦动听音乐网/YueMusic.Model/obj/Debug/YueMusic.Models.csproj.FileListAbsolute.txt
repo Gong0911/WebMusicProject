@@ -1,0 +1,37 @@
+E:\项目文件夹\asp.net课后练习\悦动听音乐网\YueMusic.Model\bin\Debug\YueMusic.Model.dll
+E:\项目文件夹\asp.net课后练习\悦动听音乐网\YueMusic.Model\bin\Debug\YueMusic.Model.pdb
+E:\项目文件夹\asp.net课后练习\悦动听音乐网\YueMusic.Model\obj\Debug\YueMusic.Models.csprojResolveAssemblyReference.cache
+E:\项目文件夹\asp.net课后练习\悦动听音乐网\YueMusic.Model\obj\Debug\YueMusic.Model.dll
+E:\项目文件夹\asp.net课后练习\悦动听音乐网\YueMusic.Model\obj\Debug\YueMusic.Model.pdb
+C:\Users\apple\Desktop\悦动听音乐网 (2)\YueMusic.Model\bin\Debug\YueMusic.Model.dll
+C:\Users\apple\Desktop\悦动听音乐网 (2)\YueMusic.Model\bin\Debug\YueMusic.Model.pdb
+C:\Users\apple\Desktop\悦动听音乐网 (2)\YueMusic.Model\obj\Debug\YueMusic.Model.dll
+C:\Users\apple\Desktop\悦动听音乐网 (2)\YueMusic.Model\obj\Debug\YueMusic.Model.pdb
+C:\Users\apple\Desktop\悦动听音乐网 (2)\YueMusic.Model\obj\Debug\YueMusic.Models.csprojResolveAssemblyReference.cache
+C:\Users\gby\Desktop\悦动听音乐网 (副本2)\YueMusic.Model\bin\Debug\YueMusic.Model.dll
+C:\Users\gby\Desktop\悦动听音乐网 (副本2)\YueMusic.Model\bin\Debug\YueMusic.Model.pdb
+C:\Users\gby\Desktop\悦动听音乐网 (副本2)\YueMusic.Model\obj\Debug\YueMusic.Model.dll
+C:\Users\gby\Desktop\悦动听音乐网 (副本2)\YueMusic.Model\obj\Debug\YueMusic.Model.pdb
+C:\Users\gby\Desktop\悦动听音乐网 (副本2)\YueMusic.Model\obj\Debug\YueMusic.Models.csprojResolveAssemblyReference.cache
+C:\Users\apple\Desktop\悦动听音乐网 (副本2)\YueMusic.Model\bin\Debug\YueMusic.Model.dll
+C:\Users\apple\Desktop\悦动听音乐网 (副本2)\YueMusic.Model\bin\Debug\YueMusic.Model.pdb
+C:\Users\apple\Desktop\悦动听音乐网 (副本2)\YueMusic.Model\obj\Debug\YueMusic.Model.dll
+C:\Users\apple\Desktop\悦动听音乐网 (副本2)\YueMusic.Model\obj\Debug\YueMusic.Model.pdb
+C:\Users\apple\Desktop\悦动听音乐网 (副本2)\YueMusic.Model\obj\Debug\YueMusic.Models.csprojResolveAssemblyReference.cache
+C:\Users\gby\Desktop\新建文件夹\悦动听音乐网 (副本2)\YueMusic.Model\bin\Debug\YueMusic.Model.dll
+C:\Users\gby\Desktop\新建文件夹\悦动听音乐网 (副本2)\YueMusic.Model\bin\Debug\YueMusic.Model.pdb
+C:\Users\gby\Desktop\新建文件夹\悦动听音乐网 (副本2)\YueMusic.Model\obj\Debug\YueMusic.Models.csprojResolveAssemblyReference.cache
+C:\Users\gby\Desktop\新建文件夹\悦动听音乐网 (副本2)\YueMusic.Model\obj\Debug\YueMusic.Model.dll
+C:\Users\gby\Desktop\新建文件夹\悦动听音乐网 (副本2)\YueMusic.Model\obj\Debug\YueMusic.Model.pdb
+C:\Users\apple\Desktop\悦动听音乐网 (副本3)\YueMusic.Model\bin\Debug\YueMusic.Model.dll
+C:\Users\apple\Desktop\悦动听音乐网 (副本3)\YueMusic.Model\bin\Debug\YueMusic.Model.pdb
+C:\Users\apple\Desktop\悦动听音乐网 (副本3)\YueMusic.Model\obj\Debug\YueMusic.Model.dll
+C:\Users\apple\Desktop\悦动听音乐网 (副本3)\YueMusic.Model\obj\Debug\YueMusic.Model.pdb
+C:\Users\apple\Desktop\悦动听音乐网 ()\YueMusic.Model\bin\Debug\YueMusic.Model.dll
+C:\Users\apple\Desktop\悦动听音乐网 ()\YueMusic.Model\bin\Debug\YueMusic.Model.pdb
+C:\Users\apple\Desktop\悦动听音乐网 ()\YueMusic.Model\obj\Debug\YueMusic.Model.dll
+C:\Users\apple\Desktop\悦动听音乐网 ()\YueMusic.Model\obj\Debug\YueMusic.Model.pdb
+C:\Users\gby\Desktop\悦动听音乐网\YueMusic.Model\bin\Debug\YueMusic.Model.dll
+C:\Users\gby\Desktop\悦动听音乐网\YueMusic.Model\bin\Debug\YueMusic.Model.pdb
+C:\Users\gby\Desktop\悦动听音乐网\YueMusic.Model\obj\Debug\YueMusic.Model.dll
+C:\Users\gby\Desktop\悦动听音乐网\YueMusic.Model\obj\Debug\YueMusic.Model.pdb

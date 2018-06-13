@@ -1,0 +1,486 @@
+﻿/* 样式重置 （reset)*/
+*{
+    padding:0;
+    margin: 0;
+}
+body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin: 0 ; padding: 0;}
+body{background:#EFF4FA;}
+em{font-style:normal;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border:none;vertical-align: top;}
+table{border-collapse: collapse;}
+input,textarea{outline: none;}
+textarea{resize: none; overflow:auto;}
+
+
+/*头部样式*/
+#top{
+    width: 100%;
+    height: 35px;
+    background-color:#C20C0C;
+}
+#top .top_page{
+    width:1100px;
+    height: 35px;
+    margin: 0 auto;
+
+}
+#top .left{
+    float: left;
+}
+#top .left li{
+    float: left;
+    padding-right: 20px;
+}
+#top .left a{
+    display: inline-block;
+    color: white;
+    line-height: 35px;
+    text-align: center;
+    font-size: 11px;
+}
+#top .left a:hover{
+    text-decoration: underline;
+}
+#top .right li{
+    float: right;
+    padding-left: 8px;
+}
+/*头像样式*/
+#top .right li .headImg{
+    padding-top:7px;
+    width:20px;
+    height:20px;
+   
+}
+#top .right a{
+    display: inline-block;
+    color: white;
+    line-height: 35px;
+    text-align: center;
+    font-size: 14px;
+}
+#top .right a:hover{
+    text-decoration: underline;
+}
+#top .right .none:hover{
+    text-decoration: none;
+}
+
+#top .right .Showname{
+    text-align:center;
+    line-height:35px;
+}
+
+/*网站导航部分开始*/
+#nav{
+    width: 100%;
+    height: 70px;
+    background-color: #242424;
+}
+#nav .nav_page{
+    width: 1100px;
+    height: 70px;
+    margin: 0 auto;
+
+}
+/*logo部分开始*/
+#nav .nav_page .nav_logo{
+    position: absolute;
+    width: 230px;
+    height:70px;
+
+}
+#nav .nav_page .nav_logo .logo_img{
+    position: relative;
+    top:14px;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    z-index: 9999;
+   background: url("../image/music.png") no-repeat;
+}
+#nav .nav_page .nav_logo .logo_title{
+    position: relative;
+    top: -25px;
+    left: 43px;
+    width: 188px;
+    height: 40px;
+}
+#nav .nav_page .nav_logo .logo_title h1{
+    color: white;
+    font-family: '隶书';
+    font-size: 35px;
+}
+/*logo部分结束*/
+
+/*导航条部分开始*/
+#nav .nav_page .nav_list{
+    position: relative;
+    top:0;
+    left: 250px;
+    width: 540px;
+    height:70px;
+}
+#nav .nav_page .nav_list li{
+    float: left;
+}
+#nav .nav_page .nav_list li a{
+    display: inline-block;
+    width: 90px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 17px;
+    color: white;
+}
+#nav .nav_page .nav_list li a:hover{
+    background-color: black;
+}
+
+/*选中页面的样式开始*/
+ .active{
+    background-color: #C20C0C;
+}
+/*#nav .nav_page .nav_list .active:hover{
+    background-color:#C20C0C ;
+}*/
+/*选中页面的样式开始*/
+
+/*导航条部分结束*/
+
+/*搜索栏样式开始*/
+#nav .nav_page .nav_search{
+    position: relative;
+    top:-54px;
+    left:860px;
+    width: 215px;
+    height: 34px;
+    background:#ffffff;
+     border:1px solid #cccccc;
+    border-radius:18px;
+}
+#nav .nav_page .nav_search .text{
+    position:absolute;
+    top:0;
+    left:7px;
+    width: 160px;
+    height: 32px;
+    border:none;
+    border-radius:18px;
+  
+}
+/*搜索图片*/
+.img{
+   position:absolute;
+   top:2px;
+   left:170px;
+   
+}
+/*搜索栏样式结束*/
+/*网站导航部分结束*/
+
+/*轮播图板块*/
+/*轮播样式开始*/
+.banner_right  #innerht{
+    position:relative;
+    width: 1100px;
+    height: 320px;
+    margin: 0 auto;
+    overflow:hidden;
+}
+#innerht ul{
+    height:320px;
+    position:absolute;
+
+}
+#innerht ul li{
+    float:left;
+    height:320px;
+}
+ol{
+    position:absolute;
+    bottom:5px;
+    right:5px;
+}
+ol li{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    display:inline-block;
+    text-align:center;
+    line-height:30px;
+    background:#fff;
+    font-size: 20px;
+    color: #242424;
+    margin:5px;
+    cursor:pointer;
+}
+ol li.current{
+    background:#C20C0C;
+    color: white;
+}
+button{
+    width:40px;
+    height:80px;
+    text-align:center;
+    line-height:80px;
+    color:#fff;
+    border: 0;
+    position:absolute;
+    top:50%;
+    margin-top:-52px;
+    display:none;
+    cursor:pointer;
+}
+
+#left{
+    left:0;
+    background: url("../image/right_arrows.png") no-repeat 0 20px;
+    background-color: rgba(0,0,0,0.2);
+}
+#right{
+    right:0;
+    background: url("../image/left_arrows.png") no-repeat 2px 20px;
+    background-color: rgba(0,0,0,0.2);
+}
+/*轮播样式结束*/
+
+/*内容部分*/
+#content{
+    position:relative;
+    width: 1100px;
+    height: 1280px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #ffffff;
+    /*border:1px solid #cccccc;*/
+}
+/*热歌、新歌部分*/
+#content .content_hot{
+    position:absolute;
+    top:0;
+    width:755px;
+    height:700px;
+    /*background:#db8a8a;*/
+}
+#content .content_new{
+    position:absolute;
+    top:700px;
+    width:755px;
+    height:500px;
+    /*background:#dce592;*/
+}
+/*热歌推荐、新歌推送共用样式部分*/
+#content .hot_list,.new_list{
+    width:750px;
+    height:40px;
+    margin-left: 5px;
+    border-bottom: 2px solid #C10D0C;
+    
+
+}
+#content .hot_list span{
+    position: absolute;
+    top :10px;
+    width: 20px;
+    height: 20px;
+    background:url(../image/ico_title.png) no-repeat;
+}
+#content .hot_list .hot_title,.new_list .new_title{
+    position: absolute;
+    left: 30px;
+    line-height: 40px;
+    font-weight: normal;
+    font-size: 15px;
+    color: #494949;
+
+}
+/*热歌分类的样式*/
+#content .hot_list .hot_type{
+    position:absolute;
+    top:10px;
+    left:140px;
+    width:225px;
+    height:20px;
+}
+#content .hot_list .hot_type li{
+    float:left;
+    padding-left:10px;
+}
+#content .hot_list .hot_type li a{
+    display:inline-block;
+    line-height:20px;
+    color:#666666;
+    font-size:12px;
+}
+#content .hot_list .hot_type li a:hover{
+    text-decoration:underline;
+}
+
+#content .hot_list .hot_more,.new_list .new_more{
+    float: right;
+    line-height: 40px;
+}
+#content .hot_list .hot_more a,.new_list .new_more a{
+    display: inline-block;
+    color: #494949;
+    font-size: 14px;
+}
+#content .hot_list .hot_more a:hover,.new_list .new_more a:hover{
+    color: #C10D0C;
+}
+/*热歌推荐数据绑定模块样式*/
+#content .hot_show{
+    width: 745px;
+    height: 620px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border:1px solid #cccccc;
+}
+
+
+/*新歌推荐数据绑定模块样式*/
+#content .new_show{
+    width: 745px;
+    height: 420px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border:1px solid #cccccc;
+}
+
+/*新歌推送标题前的图标样式部分*/
+    #content .new_list span {
+    position: absolute;
+    top :10px;
+    width: 20px;
+    height: 20px;
+    background:url(../image/ico_title.png) no-repeat;
+    }
+
+/*侧边公告栏*/
+#content .notice{
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 320px;
+    height: 400px;
+    /*border:1px solid #cccccc;*/
+}
+/*公告栏、歌手排行共用样式开始*/
+#content .notice .notice_title,.singer .singer_title{
+    position: absolute;
+    right:0;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: normal;
+    font-size: 15px;
+    color: #494949;
+    border-bottom: 2px solid #C10D0C;
+}
+#content .notice .notice_title .n_title,.singer .singer_title .s_title{
+    position: absolute;
+    left: 25px;
+}
+/*公告栏标题前面图标样式*/
+#content .notice .notice_title span{
+    position:absolute ;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+   background: url(../image/notice_ico.png) no-repeat;
+}
+
+#content .notice .notice_title .n_more,.singer .singer_title .s_more{
+    position: absolute;
+    right: 0;
+    line-height: 40px;
+}
+#content .notice .notice_title .n_more a,.singer .singer_title .s_more a{
+    display: inline-block;
+    color: #494949;
+    font-size: 14px;
+}
+#content .notice .notice_title .n_more a:hover,.singer .singer_title .s_more a:hover{
+    color: #C10D0C;
+}
+/*公告栏、歌手排行共用样式结束*/
+
+/*公告内容部分*/
+#content .notice .notice_content{
+    position: absolute;
+    top: 50px;
+    right:0;
+    width:295px;
+    height: 330px;
+    /*background-color: #fff581;*/
+}
+/*公告内容数据绑定链接的样式*/
+ .linkTitle{
+    color:#313131;
+}
+.linkTitle:hover{
+   color:red;
+}
+
+
+
+/*人气歌手排行*/
+#content .singer{
+    position: absolute;
+    top:410px;
+    right: 0;
+    width: 320px;
+    height: 580px;
+  
+}
+/*图标部分*/
+#content .singer .singer_title span{
+    position:absolute ;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    background: url("../image/singer_ico.png") no-repeat;
+}
+/*人气歌手排行榜内容部分*/
+#content .singer .singer_content{
+    position: absolute;
+    top: 50px;
+    right:25px;
+    width:270px;
+    height: 520px;
+    /*background:blue;*/
+   
+}
+
+
+/*底部footer部分样式*/
+#footer{
+    margin-top:10px;
+    width: 100%;
+    height: 70px;
+    background-color: #242424;
+}
+#footer .footer_content{
+    width: 1100px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+#footer .footer_content p{
+    line-height: 70px;
+    color:#ffffff;
+    font-family: "Microsoft YaHei", "宋体", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif, FreeSans, Arimo;
+    font-size: 14px;
+    text-align:center;
+}
+/*底部后台管理链接样式*/
+#footer .footer_content p a{
+    font-size:12px;
+    color:#9dcb18;
+}
+#footer .footer_content p a:hover{
+    text-decoration:underline;
+}
