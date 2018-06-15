@@ -8,4 +8,5 @@
 ·效果图
 ![](https://github.com/Gong0911/WebMusicProject/blob/master/%E9%9F%B3%E4%B9%90%E7%BD%91/Picture/index.png)
 ![](https://github.com/Gong0911/WebMusicProject/blob/master/%E9%9F%B3%E4%B9%90%E7%BD%91/Picture/singerPage.png)
+![](https://github.com/Gong0911/WebMusicProject/blob/master/%E9%9F%B3%E4%B9%90%E7%BD%91/Picture/songDetail.png)
 ![](https://github.com/Gong0911/WebMusicProject/blob/master/%E9%9F%B3%E4%B9%90%E7%BD%91/Picture/management.png)
